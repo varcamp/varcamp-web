@@ -10,3 +10,6 @@ Here is our company profile project
 | Abdehi  | Front End Developer | Home page, Navbar, & Footer    |
 | Farkhan | Front End Developer | Workshop, About, Blogs, & Contact |
 
+# Tech Stack
+- HTML
+- TailwindCSS
