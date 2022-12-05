@@ -14,5 +14,6 @@ Here is our company profile project
 - HTML
 - TailwindCSS
 
-# This is website clone from :
-- [Hackteam website clone](https://www.hackteam.io)
+# Inspirations website design :
+- [Hackteam](https://www.hackteam.io)
+We are trying to clone a website from hackteam to learn about code
