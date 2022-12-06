@@ -1,11 +1,11 @@
-# varcamp-web
+# VarCamp Website
 
-Here is our company profile project
+Company profile for VarCamp, a training and consulting for tech companies.
 
 ## Varcamp
 
-- Var : taken from javascript variables and you could say we also provide solutions using javascript.
-- Camp : a group of people to come up with a solution idea.
+- Var: taken from javascript variables and you could say we also provide solutions using javascript.
+- Camp: a group of people to come up with a solution idea.
 
 | Name    | Role                | The Worked Section Of The Page    |
 | ------- | ------------------- | --------------------------------- |
@@ -15,7 +15,8 @@ Here is our company profile project
 ## Tech Stack
 
 - HTML
-- TailwindCSS
+- CSS
+- Tailwind CSS
 
 ## Inspirations website design
 
