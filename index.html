@@ -116,8 +116,9 @@
     <!-- Hero Section Start -->
     <section id="hero">
       <div class="relative flex items-center justify-center">
+        <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100"></div>
         <video
-          class="w-[1300px] h-[650px] rounded-2xl object-cover"
+          class="w-[1150px] h-[600px] rounded-2xl object-cover relative"
           loop
           autoplay
           muted
@@ -125,11 +126,13 @@
           <source src="/img/hero.mp4" type="video/mp4" />
         </video>
         <div class="text-2xl z-2 absolute text-center">
-          <h1 class="font-[inherit] text-6xl font-extrabold text-white mb-8">
+          <h1
+            class="font-[inherit] text-5xl lg:text-6xl font-extrabold text-white mb-8"
+          >
             Training and Consulting <br />
             for tech companies
           </h1>
-          <p class="text-gray-300 mb-12">
+          <p class="text-gray-300 mb-12 text-sm lg:text-base">
             Varcamp is a growing company community, love to work with your
             developers <br />
             or users. Let us train your developers, write blogs, speaking good
@@ -148,13 +151,195 @@
       </div>
     </section>
 
-    <div class="mb-96"></div>
+    <!-- hero section 2 start -->
+    <section>
+      <div class="bg-gray-100 max-w-full py-16">
+        <div
+          class="text-gray-500 text-center font-semibold text-sm font-[inherit]"
+        >
+          EXPERT TECHNOLOGIES INCLUDE
+        </div>
+        <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8 mb-28">
+          <div
+            class="grid grid-cols-3 gap-8 mt-6 md:grid-cols-6 lg:grid-cols-6"
+          >
+            <div class="flex justify-center">
+              <img class="h-8" src="../img/logo/typescript.svg" alt="" />
+            </div>
+            <div class="flex justify-center">
+              <img class="h-8" src="../img/logo/javascript.svg" alt="" />
+            </div>
+            <div class="flex justify-center">
+              <img class="h-8" src="../img/logo/react.svg" alt="" />
+            </div>
+            <div class="flex justify-center">
+              <img class="h-8" src="../img/logo/graphql.svg" alt="" />
+            </div>
+            <div class="flex justify-center">
+              <img class="h-8" src="../img/logo/ios.svg" alt="" />
+            </div>
+            <div class="flex justify-center">
+              <img class="h-8" src="../img/logo/android.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- hero section 2 end -->
+
+    <!-- hero section 3 start -->
+    <section class="bg-gray-100 max-w-full font-[inherit]">
+      <div class="px-5 lg:px-24 md:px-24 mb-32">
+        <div>
+          <h1 class="text-black text-3xl font-extrabold pb-5">
+            What we have to offer
+          </h1>
+          <p class="pb-5 text-xl text-black">
+            Varcamp is a growing community of technology experts ready to help
+            you take your company to the next level. We offer a variety of
+            services to help you achieve your goals.
+          </p>
+          <p class="pb-10 text-xl text-black">
+            Let us train your developers, write blog posts, speak at conferences
+            or help you reach the next level of growth.
+          </p>
+        </div>
+        <div
+          class="grid grid-cols-1 xl:grid xl:grid-cols-2 md:grid md:grid-cols-2 max-w-full"
+        >
+          <a href="/workshop/" class="border rounded-tl-2xl pl-6 bg-white">
+            <div class="flex justify-end pt-2 pr-2">
+              <img class="w-5 h-5" src="/img/logo/arrow.svg" alt="" />
+            </div>
+            <div class="flex flex-row justify-start items-center mb-6">
+              <div
+                class="flex justify-center items-center bg-yellow-300 rounded-lg border border-yellow-300 w-12 h-12"
+              >
+                <img
+                  class="w-8 h-8 fill-current"
+                  src="/img/logo/people.svg"
+                  alt="people"
+                />
+              </div>
+              <div class="flex basis-1/2">
+                <p class="px-4 text-black font-semibold text-xl">
+                  Content creation
+                </p>
+              </div>
+            </div>
+            <p class="mb-8">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam eaque
+              delectus nihil voluptatibus saepe ipsam doloribus modi,
+              repudiandae dignissimos autem.
+            </p>
+          </a>
+          <a href="/workshop/" class="border rounded-tr-2xl pl-6 bg-white">
+            <div class="flex justify-end pt-2 pr-2">
+              <img class="w-5 h-5" src="/img/logo/arrow.svg" alt="" />
+            </div>
+            <div class="flex flex-row justify-start items-center mb-6">
+              <div
+                class="flex justify-center items-center bg-yellow-300 rounded-lg border border-yellow-300 w-12 h-12"
+              >
+                <img
+                  class="w-8 h-8 fill-current"
+                  src="/img/logo/people.svg"
+                  alt="people"
+                />
+              </div>
+              <div class="flex basis-1/2">
+                <p class="px-4">Lorem ipsum dolor sit amet</p>
+              </div>
+            </div>
+            <p class="mb-8">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam eaque
+              delectus nihil voluptatibus saepe ipsam doloribus modi,
+              repudiandae dignissimos autem.
+            </p>
+          </a>
+          <a href="/workshop/" class="border rounded-bl-2xl pl-6 bg-white">
+            <div class="flex justify-end pt-2 pr-2">
+              <img class="w-5 h-5" src="/img/logo/arrow.svg" alt="" />
+            </div>
+            <div class="flex flex-row justify-start items-center mb-6">
+              <div
+                class="flex justify-center items-center bg-yellow-300 rounded-lg border border-yellow-300 w-12 h-12"
+              >
+                <img
+                  class="w-8 h-8 fill-current"
+                  src="/img/logo/people.svg"
+                  alt="people"
+                />
+              </div>
+              <div class="flex basis-1/2">
+                <p class="px-4">Lorem ipsum dolor sit amet</p>
+              </div>
+            </div>
+            <p class="mb-8">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam eaque
+              delectus nihil voluptatibus saepe ipsam doloribus modi,
+              repudiandae dignissimos autem.
+            </p>
+          </a>
+          <a href="/workshop/" class="border rounded-br-2xl pl-6 bg-white">
+            <div class="flex justify-end pt-2 pr-2">
+              <img class="w-5 h-5" src="/img/logo/arrow.svg" alt="" />
+            </div>
+            <div class="flex flex-row justify-start items-center mb-6">
+              <div
+                class="flex justify-center items-center bg-yellow-300 rounded-lg border border-yellow-300 w-12 h-12"
+              >
+                <img
+                  class="w-8 h-8 fill-current"
+                  src="/img/logo/people.svg"
+                  alt="people"
+                />
+              </div>
+              <div class="flex basis-1/2">
+                <p class="px-4">Lorem ipsum dolor sit amet</p>
+              </div>
+            </div>
+            <p class="mb-8">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam eaque
+              delectus nihil voluptatibus saepe ipsam doloribus modi,
+              repudiandae dignissimos autem.
+            </p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- hero section 3 end -->
+
+    <!-- hero section 4 start -->
+
+    <!-- hero section 4 end -->
+
+    <div class="font-[inherit] px-2 lg:px-28 md:px-28">
+      <h1 class="text-4xl text-gray-800 font-bold">
+        Ready to take your company to the next level?
+      </h1>
+      <div class="flex justify-between items-center">
+        <p class="text-4xl text-yellow-500 font-bold">
+          Lorem ipsum dolor sit amet.
+        </p>
+        <a
+          href="/contact/"
+          class="w-24 h-11 rounded-md border border-yellow-300 flex justify-center items-center font-semibold bg-yellow-400 hover:bg-yellow-500"
+          >Contact</a
+        >
+      </div>
+    </div>
+
+    <div class="mb-36"></div>
     <!-- Footer Section Start -->
     <section id="footer">
       <div
-        class="flex justify-between items-center px-24 h-[100px] max-w-full bg-gray-100"
+        class="lg:flex lg:justify-between items-center px-2 lg:px-24 md:px-24 h-[100px] max-w-full bg-gray-100"
       >
-        <div class="flex text-gray-400 text-lg">
+        <div
+          class="flex-none lg:flex md:flex text-gray-400 text-lg py-4 lg:py-0 md:py-0"
+        >
           <h1>&copy; 2022 Varcamp (DigitalCompany.Solutions.)</h1>
         </div>
         <div class="flex">
