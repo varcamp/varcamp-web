@@ -3,6 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>About - VarCamp</title>
+
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
@@ -11,41 +14,41 @@
       <nav class="font-[inherit]">
         <div class="flex flex-col lg:flex-row">
           <div
-            class="flex items-center justify-between px-4 py-4 lg:py-0 border-b lg:border-b-0 lg:px-24"
+            class="flex items-center justify-between px-4 py-4 border-b lg:py-0 lg:border-b-0 lg:px-24"
           >
             <div>
-              <a href="/index.html" class="font-bold text-3xl items-center"
+              <a href="/index.html" class="items-center text-3xl font-bold"
                 >VarCamp</a
               >
             </div>
             <div>
               <ion-icon
                 name="Menu"
-                class="text-3xl block cursor-pointer text-gray-500 hover:bg-gray-300 lg:hidden"
+                class="block text-3xl text-gray-500 cursor-pointer hover:bg-gray-300 lg:hidden"
                 onclick="Menu(this)"
               ></ion-icon>
             </div>
           </div>
 
           <div
-            class="flex flex-col lg:flex-row justify-between w-full py-4 lg:py-8"
+            class="flex flex-col justify-between w-full py-4 lg:flex-row lg:py-8"
           >
             <div
-              class="flex flex-col lg:flex-row justify-between lg:justify-center w-full"
+              class="flex flex-col justify-between w-full lg:flex-row lg:justify-center"
             >
               <a
                 href="/workshop/"
-                class="block px-5 lg:px-10 py-2 font-semibold text-slate-500 text-lg hover:text-slate-900"
+                class="block px-5 py-2 text-lg font-semibold lg:px-10 text-slate-500 hover:text-slate-900"
                 >Workshops</a
               >
               <a
                 href="/about/"
-                class="block px-5 lg:px-10 py-2 font-semibold text-slate-500 text-lg hover:text-slate-900"
+                class="block px-5 py-2 text-lg font-semibold lg:px-10 text-slate-500 hover:text-slate-900"
                 >About</a
               >
               <a
                 href="/blog/"
-                class="block px-5 lg:px-10 py-2 font-semibold text-slate-500 text-lg hover:text-slate-900"
+                class="block px-5 py-2 text-lg font-semibold lg:px-10 text-slate-500 hover:text-slate-900"
                 >Blog</a
               >
             </div>
@@ -90,7 +93,7 @@
               </a>
               <a
                 href="/contact/"
-                class="w-24 h-11 rounded-md border border-yellow-300 flex justify-center items-center font-semibold bg-yellow-400 hover:bg-yellow-500"
+                class="flex items-center justify-center w-24 font-semibold bg-yellow-400 border border-yellow-300 rounded-md h-11 hover:bg-yellow-500"
                 >Contact</a
               >
             </div>
@@ -100,13 +103,250 @@
     </section>
     <!-- Navbar Section End -->
 
+    <main>
+      <div class="px-6 py-24 pt-16 mx-auto max-w-7xl">
+        <div class="text-center">
+          <h4
+            class="text-base font-semibold tracking-wide text-yellow-400 uppercase"
+          >
+            About
+          </h4>
+          <p
+            class="max-w-2xl mx-auto mt-1 text-4xl font-extrabold text-gray-900 md:text-5xl md:tracking-tight lg:text-6xl"
+          >
+            Training and consulting for tech companies
+          </p>
+          <p class="max-w-xl mx-auto mt-5 text-xl text-gray-500">
+            Hackteam is a growing community of experts that love to work with
+            your developers or users.
+          </p>
+          <p class="max-w-xl mx-auto mt-5 text-xl text-gray-500">
+            Let us train your developers, write blog posts, speak at conferences
+            or help you reach the next level of growth.
+          </p>
+        </div>
+      </div>
+
+      <div class="px-6 py-24 pt-16 mx-auto max-w-7xl">
+        <div class="grid grid-cols-3 gap-8 mt-6 md:grid-cols-6 lg:grid-cols-6">
+          <div
+            class="flex justify-center col-span-1 md:col-span-2 lg:col-span-1"
+          >
+            <img class="h-8" src="../img/logo/typescript.svg" alt="" />
+          </div>
+          <div
+            class="flex justify-center col-span-1 md:col-span-2 lg:col-span-1"
+          >
+            <img class="h-8" src="../img/logo/javascript.svg" alt="" />
+          </div>
+          <div
+            class="flex justify-center col-span-1 md:col-span-2 lg:col-span-1"
+          >
+            <img class="h-8" src="../img/logo/react.svg" alt="" />
+          </div>
+          <div
+            class="flex justify-center col-span-1 md:col-span-2 lg:col-span-1"
+          >
+            <img class="h-8" src="../img/logo/graphql.svg" alt="" />
+          </div>
+          <div
+            class="flex justify-center col-span-1 md:col-span-2 lg:col-span-1"
+          >
+            <img class="h-8" src="../img/logo/ios.svg" alt="" />
+          </div>
+          <div
+            class="flex justify-center col-span-1 md:col-span-2 lg:col-span-1"
+          >
+            <img class="h-8" src="../img/logo/android.svg" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-gray-100">
+        <div
+          class="flex flex-col justify-between p-4 py-16 mx-auto md:py-24 md:items-center md:flex-row md:px-8 max-w-7xl"
+        >
+          <div>
+            <h2
+              class="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-4xl"
+            >
+              <span class="block">Need training or consulting?</span>
+              <span
+                class="block text-transparent bg-gradient-to-r from-yellow-400 to-yellow-400 bg-clip-text"
+                >Get in touch with us!</span
+              >
+            </h2>
+          </div>
+          <div>
+            <button
+              class="px-4 py-2 text-base font-medium text-black bg-yellow-300 border border-transparent rounded-md shadow-sm hover:bg-yellow-400"
+            >
+              Contact
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="px-6 py-24 pt-24 mx-auto text-center max-w-7xl">
+        <div class="max-w-xl mx-auto mb-16 space-y-5 lg:max-w-5xl">
+          <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl">
+            Meet the people
+          </h2>
+          <p class="text-xl text-gray-500">
+            We are a community-led organization with constantly changing
+            members. This way we make sure we have the best people available for
+            your needs.
+          </p>
+        </div>
+
+        <div
+          class="grid grid-cols-2 mx-auto gap-x-4 gap-y-8 md:grid-cols-4 md:gap-x-6 lg:max-w-5xl lg:gap-x-8 lg:gap-y-12 xl:grid-cols-6"
+        >
+          <div class="space-y-4">
+            <div
+              class="inline-block overflow-hidden bg-gray-100 rounded-full h-36"
+            >
+              <img
+                class="mx-auto rounded-full h-36 w-30"
+                src="https://hackteam.io/royderks.jpeg"
+                alt=""
+              />
+            </div>
+            <div class="space-y-4">
+              <div class="text-base font-medium">
+                <h3>Roy Derks</h3>
+                <p class="text-yellow-400">Founder</p>
+              </div>
+            </div>
+          </div>
+          <div class="space-y-4">
+            <div
+              class="inline-block overflow-hidden bg-gray-100 rounded-full h-36"
+            >
+              <div class="mx-auto rounded-full h-36 w-30">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="2"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                  class="w-full h-full p-5 text-gray-300"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+            <div class="space-y-4">
+              <div class="text-base font-medium">
+                <h3>Community members</h3>
+                <p class="text-yellow-400">Trainers</p>
+              </div>
+            </div>
+          </div>
+          <div class="space-y-4">
+            <div
+              class="inline-block overflow-hidden bg-gray-100 rounded-full h-36"
+            >
+              <div class="mx-auto rounded-full h-36 w-30">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="2"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                  class="w-full h-full p-5 text-gray-300"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+            <div class="space-y-4">
+              <div class="text-base font-medium">
+                <h3>Community members</h3>
+                <p class="text-yellow-400">Speakers</p>
+              </div>
+            </div>
+          </div>
+          <div class="space-y-4">
+            <div
+              class="inline-block overflow-hidden bg-gray-100 rounded-full h-36"
+            >
+              <div class="mx-auto rounded-full h-36 w-30">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="2"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                  class="w-full h-full p-5 text-gray-300"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+            <div class="space-y-4">
+              <div class="text-base font-medium">
+                <h3>Community members</h3>
+                <p class="text-yellow-400">Writers</p>
+              </div>
+            </div>
+          </div>
+          <div class="space-y-4">
+            <div
+              class="inline-block overflow-hidden bg-gray-100 rounded-full h-36"
+            >
+              <div class="mx-auto rounded-full h-36 w-30">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="2"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                  class="w-full h-full p-5 text-gray-300"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+            <div class="space-y-4">
+              <button
+                class="px-4 py-2 text-base font-medium text-black bg-yellow-300 border border-transparent rounded-md shadow-sm hover:bg-yellow-400"
+              >
+                Join us!
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
     <!-- Footer Section Start -->
     <section id="footer">
       <div
         class="lg:flex lg:justify-between items-center px-2 lg:px-24 md:px-24 h-[100px] max-w-full bg-gray-100"
       >
         <div
-          class="flex-none lg:flex md:flex text-gray-400 text-lg py-4 lg:py-0 md:py-0"
+          class="flex-none py-4 text-lg text-gray-400 lg:flex md:flex lg:py-0 md:py-0"
         >
           <h1>&copy; 2022 Varcamp (DigitalCompany.Solutions.)</h1>
         </div>
